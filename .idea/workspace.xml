@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Create and test spring-context.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/ConstructorInjectedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/PropertyInjectedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/SetterInjectedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/GreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/GreetingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/controller/ConstructorInjectedControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/controller/PropertyInjectedControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/controller/SetterInjectedControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/ConstructorInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/PropertyInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/SetterInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/GreetingServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,16 +76,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.springframework.sfgdi.services" />
@@ -100,7 +97,7 @@
       <recent name="com.springframework.sfgdi.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConstructorInjectedControllerTest.getGreeting">
+  <component name="RunManager" selected="Application.SfgDiApplication">
     <configuration name="SfgDiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springframework.sfgdi.SfgDiApplication" />
       <module name="sfg-di" />
@@ -164,10 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SfgDiApplication" />
         <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
         <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
         <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreeting" />
-        <item itemvalue="Application.SfgDiApplication" />
       </list>
     </recent_temporary>
   </component>
