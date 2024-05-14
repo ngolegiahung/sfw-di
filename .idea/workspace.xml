@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sfg-di.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/SfgDiApplicationTests.java" afterDir="false" />
+    <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Create and test spring-context.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/ConstructorInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/PropertyInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/SetterInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/GreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/GreetingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/controller/ConstructorInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/controller/PropertyInjectedControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/springframework/sfgdi/controller/SetterInjectedControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +23,45 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DI/spring_context" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1715694836" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="DI/spring_context" />
+                    <option name="lastUsedInstant" value="1715694678" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,10 +84,23 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springframework.sfgdi.services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.springframework.sfgdi.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConstructorInjectedControllerTest.getGreeting">
     <configuration name="SfgDiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springframework.sfgdi.SfgDiApplication" />
       <module name="sfg-di" />
@@ -80,8 +114,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConstructorInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springframework.sfgdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springframework.sfgdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.springframework.sfgdi.controller.ConstructorInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springframework.sfgdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springframework.sfgdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.springframework.sfgdi.controller.PropertyInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sfg-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springframework.sfgdi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springframework.sfgdi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.springframework.sfgdi.controller.SetterInjectedControllerTest" />
+      <option name="METHOD_NAME" value="getGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
+        <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
+        <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreeting" />
         <item itemvalue="Application.SfgDiApplication" />
       </list>
     </recent_temporary>
@@ -95,6 +180,14 @@
       <option name="presentableId" value="Default" />
       <updated>1715693050109</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create and test spring-context.">
+      <created>1715694683379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715694683379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,10 +195,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="fork/manual-di" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create and test spring-context." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create and test spring-context." />
   </component>
 </project>
