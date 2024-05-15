@@ -3,7 +3,7 @@ package com.springframework.sfgdi.services;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Profile("EN")
+@Profile({"EN", "default"}) // set default for profile
 @Service("i18nService") // name service
 public class I18nEnglishGreetingService implements GreetingService {
 
