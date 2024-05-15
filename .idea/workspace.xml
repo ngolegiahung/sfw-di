@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Create and test spring-context.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
+    <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Using Primary bean - no need Qualifier.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/I18nController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/I18nSpanishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +44,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1715700514" />
+                    <option name="branchName" value="DI/profiles" />
+                    <option name="lastUsedInstant" value="1715779957" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="DI/using_qualifier" />
@@ -207,7 +209,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="DI/using_qualifier" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
