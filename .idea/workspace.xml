@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Using Primary bean - no need Qualifier.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/CustomBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/LifeCycleDemoBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/I18nController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/MyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/controller/PetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/CatPetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/CatPetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/ConstructorGreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/DogPetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/DogPetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/GreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PropertyInjectedGreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/SetterInjectedGreetingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/SfgDiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DI/using_qualifier" />
+        <entry key="$PROJECT_DIR$" value="DI/di_assignment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -61,6 +41,14 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1715783192" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="DI/di_assignment" />
+                    <option name="lastUsedInstant" value="1715783049" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="DI/profiles" />
                     <option name="lastUsedInstant" value="1715779957" />
@@ -216,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715700483656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DI assignment - dog, cat service.">
+      <created>1715783180922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715783180922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +225,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="fork/di-assignment-review" />
+                        <option value="fork/life-cycle-demo" />
                       </list>
                     </value>
                   </entry>
@@ -245,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create and test spring-context." />
     <MESSAGE value="Using qualifier to get correct DI when have many Service same Interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Using qualifier to get correct DI when have many Service same Interface." />
+    <MESSAGE value="DI assignment - dog, cat service." />
+    <option name="LAST_COMMIT_MESSAGE" value="DI assignment - dog, cat service." />
   </component>
 </project>
