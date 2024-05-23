@@ -1,4 +1,4 @@
-package com.springframework.sfgdi.services;
+package com.springframework.sfgdi.beanLifeCycle;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
