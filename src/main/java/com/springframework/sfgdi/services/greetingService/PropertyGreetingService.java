@@ -1,8 +1,5 @@
 package com.springframework.sfgdi.services.greetingService;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public class PropertyGreetingService implements GreetingService {
 
     @Override
