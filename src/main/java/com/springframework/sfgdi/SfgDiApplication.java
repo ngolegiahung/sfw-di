@@ -3,6 +3,7 @@ package com.springframework.sfgdi;
 import com.springframework.sfgdi.beanLifeCycle.PrototypeBean;
 import com.springframework.sfgdi.beanLifeCycle.SingletonBean;
 import com.springframework.sfgdi.controller.*;
+import com.springframework.sfgdi.datasource.FakeDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -50,6 +51,7 @@ public class SfgDiApplication {
 		System.out.println(constructorInjectedController.getGreeting());
 
 		System.out.println("======== Bean Scopes ========");
+
 		SingletonBean singletonBean1 = ctx.getBean(SingletonBean.class);
 		System.out.println(singletonBean1.getMyScope());
 		SingletonBean singletonBean2 = ctx.getBean(SingletonBean.class);
@@ -59,5 +61,12 @@ public class SfgDiApplication {
 		System.out.println(prototypeBean1.getMyScope());
 		PrototypeBean prototypeBean2 = ctx.getBean(PrototypeBean.class);
 		System.out.println(prototypeBean2.getMyScope());
+
+		System.out.println("======== Properties Source ========");
+
+		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
+		System.out.println(fakeDataSource.getUsername());
+		System.out.println(fakeDataSource.getPassword());
+		System.out.println(fakeDataSource.getJdbcUrl());
 	}
 }
