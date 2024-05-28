@@ -10,13 +10,11 @@ import org.springframework.context.annotation.PropertySource;
 public class DataSourceConfig {
 
     @Bean
-    FakeDataSource fakeDataSource(@Value("${di.username}") String username,
-                                  @Value("${di.password}") String password,
-                                  @Value("${di.jdbcurl}") String jdbcurl) {
+    FakeDataSource fakeDataSource(SfgConfiguration sfgConfiguration) {
         FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setUsername(username);
-        fakeDataSource.setPassword(password);
-        fakeDataSource.setJdbcUrl(jdbcurl);
+        fakeDataSource.setUsername(sfgConfiguration.getUsername());
+        fakeDataSource.setPassword(sfgConfiguration.getPassword());
+        fakeDataSource.setJdbcUrl(sfgConfiguration.getJdbcUrl());
         return fakeDataSource;
     }
 }

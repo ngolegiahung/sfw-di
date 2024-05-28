@@ -2,6 +2,7 @@ package com.springframework.sfgdi;
 
 import com.springframework.sfgdi.beanLifeCycle.PrototypeBean;
 import com.springframework.sfgdi.beanLifeCycle.SingletonBean;
+import com.springframework.sfgdi.config.SfgConfiguration;
 import com.springframework.sfgdi.controller.*;
 import com.springframework.sfgdi.datasource.FakeDataSource;
 import org.springframework.boot.SpringApplication;
@@ -62,11 +63,18 @@ public class SfgDiApplication {
 		PrototypeBean prototypeBean2 = ctx.getBean(PrototypeBean.class);
 		System.out.println(prototypeBean2.getMyScope());
 
-		System.out.println("======== Properties Source ========");
+		System.out.println("======== Fake Data Properties Source ========");
 
 		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
 		System.out.println(fakeDataSource.getUsername());
 		System.out.println(fakeDataSource.getPassword());
 		System.out.println(fakeDataSource.getJdbcUrl());
+
+		System.out.println("======== Config Properties Bean ========");
+
+		SfgConfiguration sfgConfiguration = ctx.getBean(SfgConfiguration.class);
+		System.out.println(sfgConfiguration.getUsername());
+		System.out.println(sfgConfiguration.getPassword());
+		System.out.println(sfgConfiguration.getJdbcUrl());
 	}
 }

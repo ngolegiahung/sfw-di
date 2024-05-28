@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Using Primary bean - no need Qualifier.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/CustomBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/services/LifeCycleDemoBean.java" afterDir="false" />
+    <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Application YML - Multi profiles in 1 yml.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/SfgConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sfg-di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sfg-di.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/DataSourceConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DI/di_assignment" />
+        <entry key="$PROJECT_DIR$" value="DI/application_yml" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +46,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1715783192" />
+                    <option name="lastUsedInstant" value="1716903390" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="DI/di_assignment" />
@@ -76,8 +79,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -86,16 +88,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.SfgDiApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "develop"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.springframework.sfgdi.services" />
@@ -175,9 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SfgDiApplication" />
-        <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
         <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
         <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreeting" />
+        <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
+        <item itemvalue="Application.SfgDiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715783180922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Application YML - Multi profiles in 1 yml.">
+      <option name="closed" value="true" />
+      <created>1716902922055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716902922055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +254,7 @@
     <MESSAGE value="Create and test spring-context." />
     <MESSAGE value="Using qualifier to get correct DI when have many Service same Interface." />
     <MESSAGE value="DI assignment - dog, cat service." />
-    <option name="LAST_COMMIT_MESSAGE" value="DI assignment - dog, cat service." />
+    <MESSAGE value="Application YML - Multi profiles in 1 yml." />
+    <option name="LAST_COMMIT_MESSAGE" value="Application YML - Multi profiles in 1 yml." />
   </component>
 </project>
