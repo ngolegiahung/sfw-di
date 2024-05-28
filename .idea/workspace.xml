@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d98fc5a2-abc4-464a-aaf1-905d99bdb2cf" name="Changes" comment="Application YML - Multi profiles in 1 yml.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/SfgConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sfg-di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sfg-di.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/SfgConstructorConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/SfgDiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springframework/sfgdi/config/DataSourceConfig.java" afterDir="false" />
@@ -45,6 +43,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="DI/constructor_binding" />
+                    <option name="lastUsedInstant" value="1716905842" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="develop" />
                     <option name="lastUsedInstant" value="1716903390" />
                   </RecentBranch>
@@ -59,10 +61,6 @@
                   <RecentBranch>
                     <option name="branchName" value="DI/using_qualifier" />
                     <option name="lastUsedInstant" value="1715700393" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="DI/spring_context" />
-                    <option name="lastUsedInstant" value="1715694678" />
                   </RecentBranch>
                 </list>
               </option>
@@ -97,7 +95,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "develop"
+    "git-widget-placeholder": "DI/constructor__binding"
   }
 }]]></component>
   <component name="RecentsManager">
